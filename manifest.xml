@@ -12,12 +12,12 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Unani Terminology Converter" />
   <Description DefaultValue="Converts English medical writing to standardized WHO/CCRUM Unani terminology." />
-  <IconUrl DefaultValue="https://REPLACE_WITH_YOUR_HOST/assets/icon-32.png" />
-  <HighResolutionIconUrl DefaultValue="https://REPLACE_WITH_YOUR_HOST/assets/icon-80.png" />
-  <SupportUrl DefaultValue="https://REPLACE_WITH_YOUR_HOST/" />
+  <IconUrl DefaultValue="https://beingzfr1qbal.github.io/LisaniQ/assets/icon-32.png" />
+  <HighResolutionIconUrl DefaultValue="https://beingzfr1qbal.github.io/LisaniQ//assets/icon-80.png" />
+  <SupportUrl DefaultValue="https://beingzfr1qbal.github.io/LisaniQ/" />
 
   <AppDomains>
-    <AppDomain>https://REPLACE_WITH_YOUR_HOST</AppDomain>
+    <AppDomain>https://beingzfr1qbal.github.io/LisaniQ</AppDomain>
   </AppDomains>
 
   <Hosts>
@@ -74,14 +74,14 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://REPLACE_WITH_YOUR_HOST/assets/icon-16.png" />
-        <bt:Image id="Icon.32x32" DefaultValue="https://REPLACE_WITH_YOUR_HOST/assets/icon-32.png" />
-        <bt:Image id="Icon.80x80" DefaultValue="https://REPLACE_WITH_YOUR_HOST/assets/icon-80.png" />
+        <bt:Image id="Icon.16x16" DefaultValue="https://beingzfr1qbal.github.io/LisaniQ/assets/icon-16.png" />
+        <bt:Image id="Icon.32x32" DefaultValue="https://beingzfr1qbal.github.io/LisaniQ/icon-32.png" />
+        <bt:Image id="Icon.80x80" DefaultValue="https://beingzfr1qbal.github.io/LisaniQ/assets/icon-80.png" />
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://REPLACE_WITH_YOUR_HOST/taskpane/taskpane.html" />
-        <bt:Url id="Taskpane.Url" DefaultValue="https://REPLACE_WITH_YOUR_HOST/taskpane/taskpane.html" />
-        <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://REPLACE_WITH_YOUR_HOST/" />
+        <bt:Url id="Commands.Url" DefaultValue="https://beingzfr1qbal.github.io/LisaniQ/taskpane/taskpane.html" />
+        <bt:Url id="Taskpane.Url" DefaultValue="https://beingzfr1qbal.github.io/LisaniQ/taskpane/taskpane.html" />
+        <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://beingzfr1qbal.github.io/LisaniQ/" />
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GetStarted.Title" DefaultValue="Unani Terminology Converter is ready" />
