@@ -25,7 +25,7 @@
   </Hosts>
 
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://REPLACE_WITH_YOUR_HOST/taskpane/taskpane.html" />
+    <SourceLocation DefaultValue="https://beingzfr1qbal.github.io/LisaniQ//taskpane/taskpane.html" />
   </DefaultSettings>
 
   <Permissions>ReadWriteDocument</Permissions>
