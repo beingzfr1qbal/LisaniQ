@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Unani Terminology Converter</title>
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <link rel="stylesheet" href="taskpane.css" />
+</head>
+<body>
+  <header>
+    <h1>Unani Terminology Converter</h1>
+    <div id="status">Loading terminology database…</div>
+  </header>
+
+  <section class="actions">
+    <button id="btnConvertSelection" disabled>Convert Selected Text</button>
+    <button id="btnConvertDocument" disabled>Convert Entire Document</button>
+  </section>
+
+  <section class="search">
+    <input type="text" id="searchBox" placeholder="Search terminology (e.g. dyspepsia)" disabled />
+    <div id="searchResults"></div>
+  </section>
+
+  <section class="options">
+    <label><input type="checkbox" id="optHighlight" checked /> Highlight replaced terms</label>
+    <label><input type="checkbox" id="optIncludeReview" /> Also apply REVIEW-tier matches (ambiguous common words)</label>
+  </section>
+
+  <section class="log">
+    <h2>Conversion Log</h2>
+    <div id="logArea">No conversions run yet.</div>
+  </section>
+
+  <footer>
+    Sources: WHO IUMT (2022), CCRUM Standard Unani Medical Terminology (2012).<br/>
+    High-confidence matches are applied directly. Ambiguous common-English words are
+    flagged but not changed unless you enable that option above.
+  </footer>
+
+  <script src="taskpane.js"></script>
+</body>
+</html>
